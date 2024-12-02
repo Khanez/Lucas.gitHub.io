@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Essential - Pyjamas Pilou Pilou</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Essential</div>
+    <nav>
+      <a href="#home">Accueil</a>
+      <a href="#shop">Boutique</a>
+      <a href="#about">Notre Histoire</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h1>Découvrez Essential : Le Pilou Pilou Réinventé</h1>
+    <p>Le confort rencontre le style. Explorez nos collections de pyjamas pilou pilou unisexes, conçues pour des moments inoubliables.</p>
+    <button onclick="scrollToSection('shop')">Explorer la Collection</button>
+  </section>
+
+  <section id="shop">
+    <h2>Nos Collections</h2>
+    <div class="product-grid">
+      <!-- Exemple de produit -->
+      <div class="product">
+        <img src="pyjama1.jpg" alt="Pyjama Hygge Dream">
+        <h3>Hygge Dream</h3>
+        <p>39,99 €</p>
+        <button>Ajouter au panier</button>
+      </div>
+      <div class="product">
+        <img src="pyjama2.jpg" alt="Pyjama Cozy Night">
+        <h3>Cozy Night</h3>
+        <p>44,99 €</p>
+        <button>Ajouter au panier</button>
+      </div>
+      <!-- Ajouter d'autres produits ici -->
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>Notre Histoire</h2>
+    <p>Chez Essential, nous croyons que le confort ne doit jamais sacrifier le style. Inspirés par la douceur du pilou pilou, nous avons conçu une gamme de pyjamas unisexes qui allient chaleur, élégance et durabilité.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contactez-nous</h2>
+    <form>
+      <label for="name">Nom :</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email :</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message :</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2024 Essential - Tous droits réservés</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
